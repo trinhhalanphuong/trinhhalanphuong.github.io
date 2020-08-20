@@ -1,0 +1,266 @@
+* {
+    margin: 0;
+    padding:0}
+
+.khoi-anh-1, .khoi-anh-2 {
+    display: flex;
+    justify-content: space-between;
+    width: 1081px;
+    margin: auto;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+img.anh {
+    width: 360px;
+    /* margin-right: 20px; */
+}
+
+.nd {
+    width: 900px;
+    text-align: center;
+    margin: auto;
+    margin-top: 180px;
+    font-family: 'Playfair Display', serif;
+    font-size: 42px;
+    color: #28689b;
+    cursor: default;
+    margin-bottom: 100px;
+}
+.CV {
+    width: 900px;
+    margin: auto;
+    padding: 30px;
+    margin-top: 40px;
+    margin-bottom: 70px;
+}
+.back-to-top {
+    position: fixed;
+    bottom: 40px;
+    right: 16px;
+    z-index: 999999;
+    width: 48px;
+    height: 48px;
+    background-color: #d8646473;
+    color: white;
+    line-height: 48px;
+    border-radius: 50%;
+    font-size: 18px;
+    cursor: pointer;
+    transition: 0.4s;
+    text-align: center;
+    box-shadow: 0px 0px 3px rgb(245, 143, 143);
+}
+.back-to-top:hover {
+    background-color: #bf4a4a;
+}
+.nav {
+    margin: auto;
+    margin-top: -20px;
+    width: 100%;
+    height: 30px;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+.nd:hover {
+    color: #7f23af;
+    transition: 0.4s ease;
+}
+.bigwrap  {
+    width: 100%;
+    top: 0;
+    left: 0;
+    background-position: center;
+    background-size: cover;
+}
+
+.logo {
+    font-family: 'Mr De Haviland', cursive;
+    font-size: 64px;
+    margin-top: 28px;
+    cursor: pointer;
+    transition: 0.4s;
+}
+.menu1 {
+    display: flex;
+    justify-content: space-between;
+    /* color: black; */
+    font-size: 24px;
+    padding: 10px 0px 10px 0px;
+    font-family: 'Playfair Display', serif!important;
+    margin-top: 40px;  
+}
+p.menu-main.project {
+    border-bottom: 1px black solid;
+    padding-bottom: 0!important;
+    height: 40px;
+    cursor: pointer;
+    transition: 0.4s;
+    color: #b71c1c;
+}
+p.menu-main {
+border-bottom: 1px transparent solid;  
+padding-bottom: 0!important;   
+height: 40px; 
+cursor: pointer; 
+transition: 0.4s; 
+color: #000000;
+}
+body {
+    font-family: 'Noto Sans JP', sans-serif;
+    color: #010725;
+    background: #f9e3e39e;
+    --do: #5C1A10;
+}
+p.menu-main:hover {
+    border-bottom: 1.5px #00000061 solid;
+    color: #b71c1c
+    
+}
+.logo .link-1:hover {
+    color: brown;
+}
+.look {
+    cursor: default;
+    margin-top: 20px;
+    text-align: center;
+    font-size: 54px;
+    width: 900px;
+    margin: auto;
+    color: #b71c1c;
+    font-family: 'Playfair Display', serif;
+    margin-bottom: 30px;
+}
+.look:hover {
+    color:#ffcdcd;
+    cursor:context-menu;
+    transition:0.3s ease;
+}
+span.xanh:hover {
+    color: blueviolet;
+    transition:0.4s;
+}
+span.xanh {
+   color: #246d69;
+    font-style: italic;
+    cursor: default;
+    transition: 0.3s ease;
+}
+.email {
+        text-align: center;
+    font-size: 84px;
+    /* text-transform: uppercase; */
+    margin: auto;
+    color: #b71c1c;
+    font-family: 'Playfair Display', serif;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    }
+.email:hover {
+   color: rgb(0 0 0 / 87%);
+    transition: 0.4s ease;
+    cursor: text;;
+}
+img.gif {
+    width: 600px;
+    margin: auto;
+    display: flex;
+}
+.icons-2 {
+    /* background-color: rgb(142 231 255 / 34%); */
+    width: 100%;
+    font-size: 100px;
+    margin: auto;
+    text-align: center;
+    padding-bottom: 50px;
+}
+img.gif {
+    width: 500px;
+    margin: auto;
+    display: flex;
+}
+a.link {
+    margin-left: 80px;
+    color: #90202094;
+    text-decoration:none;
+}
+.fb, .ins {
+    transition:0.3s
+}
+.fb:hover {
+    color:#b71c1c
+}
+.ins:hover {
+    color:#b71c1c
+}
+.khoi-3 {
+    padding-top: 40px;
+    padding-bottom: 10px;
+    /* background-color: rgb(142 231 255 / 34%); */
+}
+a.link-1 {
+    color:#010725;
+    text-decoration: none;
+}
+.logo .link-1:hover {
+    color: brown;
+}
+span.vincent {
+    color:#b71c1c;
+}   
+.overlay {
+    background-color: #e6c0f79f;
+    position: absolute;
+    z-index: 22;
+    width: 100%;
+    height: 100%;
+    transform: scale(0);
+    opacity: 0;
+}
+.overlay-2{
+    background-color: #e6c0f79f;
+    position: absolute;
+    z-index: 22;
+    width: 100%;
+    height: 100%;
+    transform: scale(1.5);
+    opacity: 0;
+}
+
+.chu-thich {
+    font-family: 'Playfair Display', serif;
+    font-size: 32px;
+    margin:auto;
+    text-align: center;
+    color: #2b2a2a;
+    line-height: 400px;
+    text-transform: uppercase;
+    font-weight: 600;
+    cursor: default;
+}
+.cv a {
+    color: black;
+    text-decoration: none;
+}
+
+.cv:hover a {
+    color:#b71c1c;  
+}
+.mot-anh, .mot-anh-2 {
+    position: relative;
+    top:0;
+    left:0; 
+    margin-right: 30px;
+}
+
+.cham-vao:hover .overlay {
+    transform: scale(1);
+    opacity: 1;transition: 0.6s ease;
+}
+
+.cham-vao-2:hover .overlay-2 {
+    transform: scale(1);
+    opacity: 1;transition: 0.6s ease;
+}
